@@ -1,0 +1,31 @@
+{
+  "pins" : [
+    {
+      "identity" : "luminare",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mrkai77/Luminare",
+      "state" : {
+        "revision" : "c6b60e3b24dac0f51c25d0dcda27a45cc37e1e93"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/swiftui-introspect",
+      "state" : {
+        "revision" : "7d311b4d0a462bfdd4c5c2b1c98ae44795a280ba",
+        "version" : "1.4.0"
+      }
+    },
+    {
+      "identity" : "swiftui-variadic-views",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lorenzofiamingo/swiftui-variadic-views",
+      "state" : {
+        "revision" : "af67d0e85bd2b499fbfb4cda834117e7c52b12b0",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
