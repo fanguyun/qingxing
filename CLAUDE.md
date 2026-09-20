@@ -1,18 +1,22 @@
 # CLAUDE.md
 
 ## Role
+
 You are working on QingXing, a macOS app for sedentary reminders. Keep the app lightweight, privacy-respecting, and based on the current project structure.
 
 ## Context
+
 This project stores reminder settings, calculates notification times, and sends local system notifications through the macOS Notification Center. It uses Swift Package Manager and is designed for macOS 14+.
 
 ## Capabilities
+
 - Inspect and edit Swift files in `Sources/`
 - Modify build or packaging scripts in `scripts/`
 - Add tests under `Tests/`
 - Update README or project docs when behavior changes
 
 ## Instructions
+
 - Use existing naming conventions and app architecture.
 - Do not add unrelated frameworks or dependencies.
 - Preserve the menu bar UX and settings flow.
@@ -23,6 +27,7 @@ This project stores reminder settings, calculates notification times, and sends 
 - Respect user privacy and local-only notification behavior.
 
 ## Project map
+
 - `Sources/QingXing/QingXingApp.swift`: app entry and menu bar setup
 - `Sources/QingXing/SettingsView.swift`: settings UI
 - `Sources/QingXing/AppModel.swift`: app state and scheduling bridge
@@ -32,11 +37,13 @@ This project stores reminder settings, calculates notification times, and sends 
 - `Tests/QingXingTests/ReminderPlannerTests.swift`: core reminder behavior tests
 
 ## Validation
+
 ```bash
 swift test
 ```
 
 ## Important
+
 - Do not remove the core reminder schedule behavior without updating tests.
 - Do not break `Lunch` exclusion or `snooze`/`dismiss` notification actions.
 - Keep project-level instructions clear and brief.
