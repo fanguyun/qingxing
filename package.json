@@ -1,0 +1,12 @@
+{
+  "name": "qingxing",
+  "version": "1.0.0",
+  "description": "QingXing 是一个 macOS 菜单栏应用，用于帮助你在长时间久坐后及时提醒起身休息，减少久坐带来的疲劳和健康风险。",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
